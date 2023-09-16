@@ -1,5 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
     background-color: bisque;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -52,6 +53,12 @@ h3 {
     text-align: left;
     padding-bottom: 5px;
     font-size: medium;
+}
+
+h4 {
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: small;
 }
 
 .contact-info {

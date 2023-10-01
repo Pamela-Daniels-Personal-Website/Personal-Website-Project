@@ -43,6 +43,37 @@ h1 {
     padding-bottom: 5px;
 }
 
+.image-grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 300px 150px;
+    grid-gap: 25px;
+    position: relative;
+    padding-left: 40em;
+
+}
+
+.image-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    z-index: auto;
+
+}
+
+
+/* Add margin to the right of the first and second image */
+.image-grid:nth-child(1) {
+    margin-right: 25px;
+}
+
+.image-grid:nth-child(2) {
+    margin-right: 25px;
+}
+
+
+
 h2 {
     text-align: left;
     padding-bottom: 5px;
